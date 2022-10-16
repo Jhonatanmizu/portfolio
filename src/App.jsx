@@ -4,12 +4,6 @@ import "./App.css";
 import Navigation from "./components/Navigation";
 
 function App() {
-  const [count, setCount] = useState(0);
-  const [isMenu, setIsMenu] = useState(false);
-  const handleToggleMenu = () => {
-    setIsMenu(!isMenu);
-    console.log("STATUS MENU", isMenu);
-  };
   return (
     <div className="App">
       <Navigation />

@@ -6,7 +6,6 @@ function Navigation() {
   const [isMenu, setIsMenu] = useState(false);
   const handleToggleMenu = () => {
     setIsMenu(!isMenu);
-    console.log("STATUS MENU", isMenu);
   };
   return (
     <>
