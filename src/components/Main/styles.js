@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import bg from '../../assets/banner.png'
 export const HomeContainer = styled.div`
     width: 100%;
     padding: .5rem 1rem;
@@ -12,7 +12,7 @@ export const HomeContainer = styled.div`
     top: 0;
     left: 0;
 
-    background: url('src/assets/banner.png') ;
+    background:url(${bg}) ;
     background-position: center;
     background-repeat: no-repeat;
     filter: opacity(.1);
