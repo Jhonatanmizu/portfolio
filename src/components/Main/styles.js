@@ -12,7 +12,7 @@ export const HomeContainer = styled.div`
     top: 0;
     left: 0;
 
-    background: url('public/assets/banner.png') ;
+    background: url('src/assets/banner.png') ;
     background-position: center;
     background-repeat: no-repeat;
     filter: opacity(.1);
