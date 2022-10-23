@@ -19,13 +19,13 @@ export const Menu = styled.ul`
 export const MenuItem = styled.li`
     height: 25%;
     overflow: hidden;
-    border: 2px solid #282a36;
-    background-color: #44475a;
+    border: 2px solid ${({ theme }) => theme.colors.secondary};
+    background-color: ${({ theme }) => theme.colors.primary};
 `
 export const MenuLink = styled.a`
     position: relative;
     top: 45%;
-    color: #bd93f9;
+    color: ${({ theme }) => theme.colors.white};
     text-transform: uppercase;
     letter-spacing: 4px;
     text-decoration: none;
@@ -36,7 +36,7 @@ export const MenuLink = styled.a`
         content: '';
         width: 25vw;
         height: 3px;
-        background: #bd93f9;
+        background: ${({ theme }) => theme.colors.white};
         position: absolute;
         top: 47.5%;
         left: 0;

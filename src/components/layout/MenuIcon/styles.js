@@ -11,7 +11,7 @@ export const Container = styled.div`
 export const Bar = styled.div`
   width: 35px;
   height: 5px;
-  background-color: #bd93f9;
+  background-color: ${({ theme }) => theme.colors.secondary};
   margin: 6px 0;
   transition: 0.4s;
   opacity: ${({ opacity }) => opacity};
